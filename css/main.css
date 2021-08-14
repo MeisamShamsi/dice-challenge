@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+*.{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2D2424;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flag {
+  height: 100px;
+}
+
+h2 {
+  color: #7FC8A9;
+  font-size: 6rem;
+  padding: 20px;
+  font-family: 'Indie Flower', cursive;
+}
+
+.playersName {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.playersName h3 {
+  color: #7FC8A9;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  padding: 5px 160px;
+}
+
+.dice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#left-dice {
+  padding: 10px 80px;
+}
+
+#right-dice {
+  padding: 10px 80px;
+}
+
+
+.footer h3 {
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 60px;
+}
